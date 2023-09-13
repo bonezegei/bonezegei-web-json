@@ -1,0 +1,33 @@
+{
+  "menu": {
+    "logo": {
+      "name": "Bonezegei",
+      "src": "resources/images/bonezegei_logo.png"
+    },
+    "link": [
+      {
+        "title": "Home",
+        "src": "resources/home",
+        "state": "active",
+        "sub": ""
+      },
+      {
+        "title": "Repository",
+        "src": "none",
+        "state": "",
+        "sub": [
+          { "title": "All Repositories", "src": "#" },
+          { "title": "Arduino", "src": "repositories/Arduino" },
+          { "title": "OpenGL", "src": "repositories/OpenGL" }
+        ]
+      },
+      {
+        "title": "Projects",
+        "src": "none",
+        "state": "",
+        "sub": [{ "title": "All Projects", "src": "repositories/index" }]
+      },
+      { "title": "About", "src": "resources/about", "state": "", "sub": "" }
+    ]
+  }
+}
